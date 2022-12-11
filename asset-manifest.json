@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/music-astrology/static/css/main.801ef950.css",
+    "main.js": "/music-astrology/static/js/main.5a5f9287.js",
+    "index.html": "/music-astrology/index.html",
+    "main.801ef950.css.map": "/music-astrology/static/css/main.801ef950.css.map",
+    "main.5a5f9287.js.map": "/music-astrology/static/js/main.5a5f9287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.801ef950.css",
+    "static/js/main.5a5f9287.js"
+  ]
+}
