@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Player.css";
 
-const Player = props => {
+const Player = (props) => {
+
+  console.log(props.item);
+
   const backgroundStyles = {
     backgroundImage:`url(${
       props.item.album.images[0].url

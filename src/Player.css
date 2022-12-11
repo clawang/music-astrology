@@ -18,11 +18,28 @@
     margin-right: 10px;
     text-align: right;
     width: 45%;
+    position: relative;
 }
 
 .now-playing__img img {
     max-width: 80vmin;
     width: 100%;
+    border-radius: 50%;
+    outline: 2px solid white;
+    animation: spin 20s linear infinite;
+}
+
+.now-playing__img::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate3D(-50%, -50%, 0);
+    outline: 15px solid white;
 }
 
 .now-playing__side {
@@ -42,4 +59,13 @@
 .progress__bar {
     background-color: #eee;
     height: 4px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

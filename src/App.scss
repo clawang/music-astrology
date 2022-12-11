@@ -1,0 +1,121 @@
+body {
+	// background: url('./gradient.jpg');
+	background-size:cover;
+	width: 100%;
+	height: 100vh;
+	max-height: -webkit-fill-available;
+	font-family: 'Maison Neue';
+	position: relative;
+}
+
+h2 {
+	margin: 0.1em 0;
+	font-family: 'Ivy Mode';
+}
+
+button {
+	border-radius: 50%;
+	border:none;
+	box-shadow: inset 0 0 10px rgb(225,117,39), 0 0 10px rgb(225,117,39);
+	background: transparent;
+	padding: 20px 30px;
+	text-transform: uppercase;
+	color: rgb(225,117,39);
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: 0.3s;
+
+	&:hover {
+		box-shadow: inset 0 0 10px rgb(221,52,116), 0 0 10px rgb(221,52,116);
+		color: rgb(221,52,116);
+	}
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:4;
+
+	canvas {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:5;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+.login, .results {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.container {
+	background: white;
+	width: 400px;
+	max-width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.playlists {
+	height: 300px;
+	overflow-y: scroll;
+	padding: 0 10px;
+
+	li {
+		list-style-type: none;
+		cursor: pointer;
+		transition: 0.3s;
+		padding: 5px 0;
+
+		&:hover {
+			color: rgb(221,52,116);
+		}
+	}
+}
+
+.results {
+	padding: 0 50px;
+	box-sizing: border-box;
+
+	h1 {
+		font-family: 'Eksell Display';
+		margin: 10px 0;
+	}
+
+	h3 {
+		margin: 10px 0;
+	}
+
+	div {
+		border-bottom: 1px solid black;
+		padding: 20px 0;
+		width: 100%;
+
+		&:last-of-type {
+			border: none;
+		}
+	}
+}

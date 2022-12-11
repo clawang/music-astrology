@@ -19,7 +19,9 @@
     "react": "^16.8.4",
     "react-chartjs-2": "^4.1.0",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "5.0.1",
+    "sass": "^1.56.2",
+    "sass-loader": "^13.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,6 +39,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@babel/plugin-proposal-export-namespace-from": "^7.17.12"
+    "@babel/plugin-proposal-export-namespace-from": "^7.17.12",
+    "sass-loader": "^13.2.0"
   }
 }
