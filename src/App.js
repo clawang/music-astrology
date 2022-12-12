@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import { authEndpoint, clientId, redirectUri, scopes } from "./config";
 import hash from "./hash";
-import logo from "./logo.svg";
 import SpotifyApi from './spotifyApi';
 import SelectionScreen from './SelectionScreen';
 import Results from './Results';
@@ -18,9 +17,9 @@ export default function App() {
   const [spotifyApi, setSpotify] = useState(null);
 
   useEffect(() => {
-    //var token = hash.access_token;
-    var token = AUTH_TOKEN;
-    console.log(token);
+    var token = hash.access_token;
+    //var token = AUTH_TOKEN;
+    //console.log(token);
     if (token) {
       setState(1);
       setSpotify(new SpotifyApi(token, axios));
