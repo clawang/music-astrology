@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/music-astrology/static/css/main.801ef950.css",
-    "main.js": "/music-astrology/static/js/main.95f2ebdf.js",
+    "main.js": "/music-astrology/static/js/main.73bd83be.js",
     "index.html": "/music-astrology/index.html",
     "main.801ef950.css.map": "/music-astrology/static/css/main.801ef950.css.map",
-    "main.95f2ebdf.js.map": "/music-astrology/static/js/main.95f2ebdf.js.map"
+    "main.73bd83be.js.map": "/music-astrology/static/js/main.73bd83be.js.map"
   },
   "entrypoints": [
     "static/css/main.801ef950.css",
-    "static/js/main.95f2ebdf.js"
+    "static/js/main.73bd83be.js"
   ]
 }
